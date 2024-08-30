@@ -17,7 +17,6 @@ const initialState: ExampleState = {
   loading: false,
   error: null,
   reviewData: [],
-  newValue : ""
 };
 
 export const fetchMovies = createAsyncThunk(
